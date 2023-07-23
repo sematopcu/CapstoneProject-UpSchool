@@ -1,0 +1,78 @@
+.products-terminal {
+    position: fixed;
+    width: 600px;
+    height: 500px;
+    bottom: 30px;
+    left: 400px;
+    overflow: hidden;
+    top: 200px;
+}
+
+.product-body {
+    overflow-y: scroll;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+}
+
+.product-top {
+    background: #E8E6E8;
+    color: black;
+    padding: 5px;
+    border-radius: 5px 5px 0 0;
+}
+
+.products-terminal .btns {
+    position: absolute;
+    top: 7px;
+    left: 5px;
+}
+
+.products-terminal .circle {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 15px;
+    margin-left: 2px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.products-title {
+    text-align: center;
+}
+
+.products-red {
+    background: #EC6A5F;
+    border-color: #D04E42;
+}
+
+.products-green {
+    background: #64CC57;
+    border-color: #4EA73B;
+}
+
+.products-yellow {
+    background: #F5C04F;
+    border-color: #D6A13D;
+}
+
+.products-clear {
+    clear: both;
+}
+
+.product-body {
+    background: black;
+    color: #7AFB4C;
+    padding: 8px;
+    overflow: auto;
+    line-height: 3;
+}
+
+.products-space {
+    margin: 25px;
+}
+
+.products-shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
